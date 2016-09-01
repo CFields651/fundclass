@@ -6,7 +6,7 @@ Session #1 Getting set up:
 - be able to git clone this repo: git clone git@github.com:CFields651/fundclass.git
 - register for openweathermap.org api
 - call the openweathermap api:  
-curl -s "http://api.openweathermap.org/data/2.5/weather?zip=55427,us&units=imperial&APPID=  
+curl -s "http://api.openweathermap.org/data/2.5/weather?zip=55427,us&units=imperial&APPID=< your api key here > 
 
 Session #2 BASH from codeacademy:   
 - Navigation: pwd, ls, cd, cd .., mkdir, touch  
