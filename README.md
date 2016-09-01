@@ -1,6 +1,7 @@
 # fundamentals of computer programming class  
 fundamentals of computer programming  
 
+- Example of calling the openweathermap api:  
 curl -s "http://api.openweathermap.org/data/2.5/weather?zip=55427,us&units=imperial&APPID=  
 
 BASH from codeacademy:   
