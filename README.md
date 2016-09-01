@@ -1,5 +1,4 @@
 # fundamentals of computer programming class  
-fundamentals of computer programming  
 
 Session #1 Getting set up:  
 - ssh to your linux instance
