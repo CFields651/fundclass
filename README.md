@@ -10,12 +10,12 @@ After this class you should be able to:
 curl -s "http://api.openweathermap.org/data/2.5/weather?zip=55427,us&units=imperial&APPID=< your api key here > 
 
 Session #2 BASH command line from codeacademy  
-- HOMEWORK: Do the first three sessions of this codeacademy tutorial: https://www.codecademy.com/learn/learn-the-command-line  
-After this class you should have basic knowledge of:
-- Navigation: pwd, ls, cd, cd .., mkdir, touch  
-- Manipulation: ls -alt, cat, cp, mv, rm, rm -r  
-- Redirection: > (write), >> (append), | (pipe), sort, uniq, grep, grep -R, sed 's/text to find/text to replace it with/g' filename.txt
-- from me: don't forget the 'cd' simply takes you back to your 'home' directory
+- HOMEWORK: Do the first three sessions of this codeacademy tutorial: https://www.codecademy.com/learn/learn-the-command-line
+- After this class you should have basic knowledge of:  
+  - Navigation: pwd, ls, cd, cd .., mkdir, touch  
+  - Manipulation: ls -alt, cat, cp, mv, rm, rm -r  
+  - Redirection: > (write), >> (append), | (pipe), sort, uniq, grep, grep -R, sed 's/text to find/text to replace it with/g' filename.txt
+  - from me: don't forget the 'cd' simply takes you back to your 'home' directory
 
 Session #3 BASH scripts
 - HOMEWORK: Do lessons 1, 2 and 3 from http://ryanstutorials.net/bash-scripting-tutorial/
