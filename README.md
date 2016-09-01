@@ -1,6 +1,6 @@
 # fundamentals of computer programming class  
 
-Session #1 Getting set up 
+Session #1 Getting set up   
 After this class you should be able to:
 - ssh to your Amazon EC2 Red Hat Linux instance; don't lose your ssh key!
 - access your github software repository at https://github.com; remember the content can be seen by anybody!
