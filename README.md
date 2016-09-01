@@ -2,6 +2,7 @@
 fundamentals of computer programming  
 
 Session #1  
+Getting set up:  
 - ssh to your linux instance
 - access your github repository at github.com
 - be able to git clone this repo: git@github.com:CFields651/fundclass.git
