@@ -17,7 +17,16 @@ Session #2 BASH command line from codeacademy
   - Redirection: > (write), >> (append), | (pipe), sort, uniq, grep, grep -R, sed 's/text to find/text to replace it with/g' filename.txt
   - from me: don't forget the 'cd' simply takes you back to your 'home' directory
 
-Session #3 BASH scripts
+Session #3 vi editor  
+- HOMEWORK: Work through this tutorial http://ryanstutorials.net/linuxtutorial/vi.php  
+- Create a file with vi and put a bunch of text in it about how wonderful your teacher is.  Get in an out of insert mode, add content in the middle, delete content, fix mistatkes. We'll read these in the next class.   
+- After this class you should know how to do the following with vi:  
+  - Navigation: j,k,l,h  
+  - Insert mode: i, o, a (the tutorial does not cover all these but try them!)  
+  - Deleting content: x, dd  
+  - save and quit: wq  
+
+Session #4 BASH scripts
 - HOMEWORK: Do lessons 1, 2 and 3 from http://ryanstutorials.net/bash-scripting-tutorial/
 -   On lesson 3 you should stop when you get to the 'Reading from STDin' section  
  
