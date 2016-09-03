@@ -19,7 +19,10 @@ Session #2 BASH command line from codeacademy
 
 Session #3 vi editor  
 - HOMEWORK: Work through this tutorial http://ryanstutorials.net/linuxtutorial/vi.php  
-- Create a file with vi and put a bunch of text in it about how wonderful your teacher is.  Get in an out of insert mode, add content in the middle, delete content, fix mistatkes. We'll read these in the next class.   
+  - See the file 'vi_practice' in this repo.  From your Linux instance:
+    - git clone git@github.com:CFields651/fundclass.git (if that gives an 'already exists' error try 'git pull' instead)
+    - Edit the file 'vi_practice' with vi, following the instructions at the top to replace missing words, remove duplicate lines and complete the missing words.  
+    - If you have trouble with 'gitting' the file please let me know.  I'll give you a hand.   
 - After this class you should know how to do the following with vi:  
   - Navigation: j,k,l,h  
   - Insert mode: i, o, a (the tutorial does not cover all these but try them!)  
