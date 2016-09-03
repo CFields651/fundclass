@@ -20,7 +20,7 @@ Session #2 BASH command line from codeacademy
 Session #3 vi editor  
 - HOMEWORK: Work through this tutorial http://ryanstutorials.net/linuxtutorial/vi.php  
   - See the file 'vi_practice' in this repo.  From your Linux instance:
-    - git clone git@github.com:CFields651/fundclass.git (if that gives an 'already exists' error try 'git pull' instead)
+    - git clone git@github.com:CFields651/fundclass.git (if that gives an 'already exists' error then 'cd' to the 'fundclass' direcotry and try a 'git pull' instead)
     - Edit the file 'vi_practice' with vi, following the instructions at the top to replace missing words, remove duplicate lines and complete the missing words.  
     - If you have trouble with 'gitting' the file please let me know.  I'll give you a hand.   
 - After this class you should know how to do the following with vi:  
