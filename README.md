@@ -17,19 +17,18 @@ Session #2 BASH command line from codeacademy
   - Redirection: > (write), >> (append), | (pipe), sort, uniq, grep, grep -R, sed 's/text to find/text to replace it with/g' filename.txt
   - from me: don't forget the 'cd' simply takes you back to your 'home' directory
 
-Session #3 vi editor  
+Session #3 vi editor 09/08  
 - HOMEWORK: Work through this tutorial http://ryanstutorials.net/linuxtutorial/vi.php  
-  - See the file 'vi_practice' in this repo.  From your Linux instance:
-    - git clone git@github.com:CFields651/fundclass.git (if that gives an 'already exists' error then 'cd' to the 'fundclass' direcotry and try a 'git pull' instead)
+  - See the file 'vi_practice' in this repo.  From your Linux instance in the 'fundclass' directory:
+    - 'git pull'
     - Edit the file 'vi_practice' with vi, following the instructions at the top to replace missing words, remove duplicate lines and complete the missing words.  
-    - If you have trouble with 'gitting' the file please let me know.  I'll give you a hand.   
 - After this class you should know how to do the following with vi:  
   - Navigation: j,k,l,h  
   - Insert mode: i, o, a (the tutorial does not cover all these but try them!)  
   - Deleting content: x, dd  
   - save and quit: wq  
 
-Session #4 BASH scripts
+Session #4 BASH scripts 09/22
 - HOMEWORK: Do lessons 1, 2 and 3 from http://ryanstutorials.net/bash-scripting-tutorial/
 -   On lesson 3 you should stop when you get to the 'Reading from STDin' section  
  
