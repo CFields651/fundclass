@@ -32,4 +32,7 @@ Session #4 BASH scripts 09/22
 - HOMEWORK: Do lessons 1, 2 and 3 from http://ryanstutorials.net/bash-scripting-tutorial/
 -   On lesson 3 you should stop when you get to the 'Reading from STDin' section  
  
-
+Supplemental  
+-  To install jq:  
+  -   wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm  
+  -   sudo rpm -Uvh epel-release-latest-7*.rpm  
