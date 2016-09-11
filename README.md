@@ -30,8 +30,14 @@ Session #3 vi editor 09/08
 
 Session #4 BASH scripts 09/22
 - HOMEWORK: Do lessons 1, 2 and 3 from http://ryanstutorials.net/bash-scripting-tutorial/
--   On lesson 3 you should stop when you get to the 'Reading from STDin' section  
+- On lesson 3 you should stop when you get to the 'Reading from STDin' section  
  
+Session #5 if/then/else  
+- HOMEWORK: Do lession 5 'if statements' from http://ryanstutorials.net/bash-scripting-tutorial/; Stop when you get to the section on 'case statements'  
+- After this class you should know what the following means and how to write your own  
+$ pi=3.14  
+$ if [ $pi != 3.14 ]; then echo "pi is wrong"; else echo "pi is right"; fi  
+
 Supplemental  
 -  To install jq:  
   -   wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm  
