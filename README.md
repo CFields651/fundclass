@@ -38,11 +38,15 @@ Session #4 BASH scripts 09/22
   - populate a variable with command substitution: myvar=$( ls )    
   - prompt a user for input with "read -p 'question:' answer"  
  
-Session #5 if/then/else  
+Session #5 if/then/else  09/29  
 - HOMEWORK: Do lession 5 'if statements' from http://ryanstutorials.net/bash-scripting-tutorial/; Stop when you get to the section on 'case statements'  
 - After this class you should know what the following means and how to write your own  
 $ pi=3.14  
 $ if [ $pi != 3.14 ]; then echo "pi is wrong"; else echo "pi is right"; fi  
+
+Session #6 loops 10/06
+- HOMEWORK: Do the 'while' loop and 'for' loop parts of lesson 6 on 'loops'  
+- After this class you should be able to use a 'while' loop or a 'for' loop in a script or on the cmdline  
 
 Supplemental  
 -  To install jq:  
