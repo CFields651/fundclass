@@ -28,9 +28,15 @@ Session #3 vi editor 09/08
   - Deleting content: x, dd  
   - save and quit: wq  
 
-Session #4 BASH scripts 09/22
-- HOMEWORK: Do lessons 1, 2 and 3 from http://ryanstutorials.net/bash-scripting-tutorial/
-- On lesson 3 you should stop when you get to the 'Reading from STDin' section  
+Session #4 BASH scripts 09/22   
+- HOMEWORK: Do lessons 1, 2 and 3 from http://ryanstutorials.net/bash-scripting-tutorial/  
+- On lesson 2 you should stop when you get to the 'Exporting Variables' section  
+- On lesson 3 you should stop when you get to the 'Reading from STDin' section   
+- After this class you should be able to:  
+  - execute a script with './'  
+  - read a variable passed from the command line with $1 
+  - populate a variable with command substitution: myvar=$( ls )    
+  - prompt a user for input with "read -p 'question:' answer"  
  
 Session #5 if/then/else  
 - HOMEWORK: Do lession 5 'if statements' from http://ryanstutorials.net/bash-scripting-tutorial/; Stop when you get to the section on 'case statements'  
