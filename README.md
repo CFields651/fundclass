@@ -46,10 +46,13 @@ $ if [ $pi != 3.14 ]; then echo "pi is wrong"; else echo "pi is right"; fi
 
 Session #6 loops 10/06
 - HOMEWORK: Do the 'while' loop and 'for' loop parts of lesson 6 on 'loops'  
+- Also go through lesson 7 on Functions but stop when you get to variable scope.  
 - After this class you should be able to use a 'while' loop or a 'for' loop in a script or on the cmdline:
 while true; do echo "Hello World"; done  
 for x in {1..5}; do echo "Hello World $x"; done  
 
+Function myfunc { echo "Hello" }  
+myfunc  
 
 Supplemental  
 -  To install jq:  
