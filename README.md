@@ -1,3 +1,4 @@
+
 # fundamentals of computer programming class  
 
 Session #1 Getting set up   
@@ -17,14 +18,6 @@ Session #2 BASH command line from codeacademy
   - Redirection: > (write), >> (append), | (pipe), sort, uniq, grep, grep -R, sed 's/text to find/text to replace it with/g' filename.txt
   - from me: don't forget the 'cd' simply takes you back to your 'home' directory
 
-Sesson #7 practice
-- HOMEWORK: Write a script that returns the proper federal tax bracket when the user enters their federal adjusted gross income. See this web site: on http://www.bankrate.com/finance/taxes/tax-brackets.aspx.  
-- Suggestions:  
-  - Use the 'read -p to ask the user to enter their 'Federal Adjusted Gross Income.'
-  - Use if then logic to find the range from the bankrate website where the income fits.  Presume this is a 'single' filer.  
-  - Use the echo statement to output the tax bracket (like 10, 15, 25, 28, 33, 35 or 39.6)
-  - call a function called 'nextBracket' that will be used to calculate how much more income would be required to reach the next tax bracket.  Just leave it empty for now; we'll work on it in class.  
-  
 Session #3 vi editor 09/08  
 - HOMEWORK: Work through this tutorial http://ryanstutorials.net/linuxtutorial/vi.php  
   - See the file 'vi_practice' in this repo.  From your Linux instance in the 'fundclass' directory:
@@ -61,6 +54,15 @@ for x in {1..5}; do echo "Hello World $x"; done
 
 Function myfunc { echo "Hello" }  
 myfunc  
+
+Sesson #7 practice
+- HOMEWORK: Write a script that returns the proper federal tax bracket when the user enters their federal adjusted gross income. See this web site: on http://www.bankrate.com/finance/taxes/tax-brackets.aspx.
+Suggestions:
+  - Do ask your parents to explain tax brackets if you need help with the concept
+  - Use the 'read -p' to ask the user to enter their 'Federal Adjusted Gross Income.'
+  - Use if/then logic to find the range from the bankrate website where the inputed income fits. Presume this is a 'single' filer.
+  - Use the echo statement to output the tax bracket (like 10, 15, 25, 28, 33, 35 or 39.6)
+  - Call a function named 'nextBracket' that will be used to calculate how much more income would be required to reach the next tax         bracket. Just leave it empty for now; we'll work on it in class.   
 
 Supplemental  
 -  To install jq:  
