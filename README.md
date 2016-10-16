@@ -22,7 +22,8 @@ Session #3 vi editor 09/08
 - HOMEWORK: Work through this tutorial http://ryanstutorials.net/linuxtutorial/vi.php  
   - See the file 'vi_practice' in this repo.  From your Linux instance in the 'fundclass' directory:
     - 'git pull'
-    - Edit the file 'vi_practice' with vi, following the instructions at the top to replace missing words, remove duplicate lines and complete the missing words.  
+
+- Edit the file 'vi_practice' with vi, following the instructions at the top to replace missing words, remove duplicate lines and complete the missing words.  
 - After this class you should know how to do the following with vi:  
   - Navigation: j,k,l,h  
   - Insert mode: i, o, a (the tutorial does not cover all these but try them!)  
@@ -64,6 +65,14 @@ Suggestions:
   - Use the echo statement to output the tax bracket (like 10, 15, 25, 28, 33, 35 or 39.6)
   - Call a function named 'nextBracket' that will be used to calculate how much more income would be required to reach the next tax         bracket. Just leave it empty for now; we'll work on it in class.   
 
+Session #8 JSON data and the jq JSON processor  
+- HOMEWORK: Try the following with the jq JSON processor that we installed in the last class.  Each of you should have a file with JSON weather data in /tmp.  If not, run your weather script again with './yourWeatherScript.sh >/tmp/weather.json' or copy the one in this repo.  
+  - cat /tmp/yourWeatherFilenameHere.json | jq '.'  
+  - cat /tmp/yourWeatherFilenameHere.json | jq '.main'  
+  - cat /tmp/yourWeatherFilenameHere.json | jq '.main.temp'  
+- Quiz: Based on your observed results from the above queries, what query would you use to return the name of the city?  What query would you use to return the name of the country? Come to class with a solution to show me.  Lastly, what time was sunrise on the day your data your data was collected?  Hint: see http://www.epochconverter.com/.    
+  - Lastly, try adding a loop to yourWeatherScript.sh in order to collection wheater data once a minute for 10 minutes.  We will work on this inclass but I want you to try it on your own first and have something to show me when class starts.   
+ 
 Supplemental  
 -  To install jq:  
   -   wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm  
