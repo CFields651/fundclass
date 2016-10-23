@@ -72,6 +72,17 @@ Session #8 JSON data and the jq JSON processor
   - cat /tmp/yourWeatherFilenameHere.json | jq '.main.temp'  
 - Quiz: Based on your observed results from the above queries, what query would you use to return the name of the city?  What query would you use to return the name of the country? Come to class with a solution to show me.  Lastly, what time was sunrise on the day your data your data was collected?  Hint: see http://www.epochconverter.com/.    
   - Lastly, try adding a loop to yourWeatherScript.sh in order to collection wheater data once a minute for 10 minutes.  We will work on this inclass but I want you to try it on your own first and have something to show me when class starts.   
+
+Session #9 Variables and the read statement  
+- HOMEWORK: understand how to populate variables from data in files and the resutls of command line operations:
+  - Understand what this does (we did it in our weatherapi.sh script): 'read weatherapi_key <<< $(cat weatherapi_key)'   
+  - Understand what this does (we did it in our weatherapi.sh script): 'read weatherapi_key <<< $(cat weatherapi_key)'  
+  - Given your understanding fo the read statement, show me a bash command that will put your name into a variable called 'myname.'  
+  - Show me a command that puts the value of the current data and time into a variable called 'currenttime.'  
+  - Do this from your git repo, and follow this sequence to push it where I can see it:  
+  - git add .  
+  - git commit -m 'some comment'  
+  - git push 
  
 Supplemental  
 -  To install jq:  
