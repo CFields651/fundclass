@@ -76,7 +76,8 @@ Session #8 JSON data and the jq JSON processor
 Session #9 Variables and the read statement  
 - HOMEWORK: understand how to populate variables from data in files and the resutls of command line operations:
   - Understand what this does (we did it in our weatherapi.sh script): 'read weatherapi_key <<< $(cat weatherapi_key)'   
-  - Understand what this does (we did it in our weatherapi.sh script): 'read weatherapi_key <<< $(cat weatherapi_key)'  
+  - Understand what this does (we did it in our weatherapi.sh script):  
+    read date temp humidity <<< $(cat weather.json  | jq '.dt,.main.temp,.main.humidity')
   - Given your understanding fo the read statement, show me a bash command that will put your name into a variable called 'myname.'  
   - Show me a command that puts the value of the current data and time into a variable called 'currenttime.'  
   - Do this from your git repo, and follow this sequence to push it where I can see it:  
