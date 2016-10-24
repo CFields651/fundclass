@@ -80,6 +80,7 @@ Session #9 Variables and the read statement
     read date temp humidity <<< $(cat weather.json  | jq '.dt,.main.temp,.main.humidity')
   - Given your understanding fo the read statement, show me a bash command that will put your name into a variable called 'myname.'  
   - Show me a command that puts the value of the current date and time into a variable called 'currenttime.'  Hint: the value of the current date and time is returned by the bash 'date' command.  
+  - Show me a command that puts the wind speed and direction ('deg') into the variables 'windspeed' and 'winddirection.'  Hint: this will look just like the date+temp+humidity command above.  
   - Do this from your git repo, and follow this sequence to push it where I can see it:  
   - git add .  
   - git commit -m 'some comment'  
