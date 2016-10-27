@@ -49,6 +49,7 @@ $ if [ $pi != 3.14 ]; then echo "pi is wrong"; else echo "pi is right"; fi
 Session #6 loops 10/06
 - HOMEWORK: Do the 'while' loop and 'for' loop parts of lesson 6 on 'loops'  
 - Also go through lesson 7 on Functions but stop when you get to variable scope.  
+
 - After this class you should be able to use a 'while' loop or a 'for' loop in a script or on the cmdline:
 while true; do echo "Hello World"; done  
 for x in {1..5}; do echo "Hello World $x"; done  
@@ -85,7 +86,14 @@ Session #9 Variables and the read statement
   - git add .  
   - git commit -m 'some comment'  
   - git push 
- 
+
+Session #10 
+ - HOMEWORK: the weatherapi.sh script in my repo has some issues:
+   - change the 'date' variable to 'epoch'
+   - do not record the seconds for the time of the weather sample
+   - the /tmp/weather_data.csv is in the wrong path; change it to write to tmp in your home dir
+   - take the sample every 60 minutes, not 60 seconds
+   
 Supplemental  
 -  To install jq:  
   -   wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm  
