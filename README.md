@@ -92,7 +92,10 @@ Session #10
    - change the 'date' variable to 'epoch'
    - do not record the seconds for the time of the weather sample
    - the /tmp/weather_data.csv is in the wrong path; change it to write to tmp in your home dir
-   - take the sample every 60 minutes, not 60 seconds
+   - take the sample every 60 minutes, not 60 seconds  
+   - use this to execute it when you are not logged in:  
+       nohup ./weatherapi.sh  1 N >~/tmp/weatherapi.out 2>&1 &  
+
    
 Supplemental  
 -  To install jq:  
