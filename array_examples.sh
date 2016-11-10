@@ -55,7 +55,7 @@ echo "echo \${#temp_array[@]}"
 echo "This is the number of elements or 'lines' in the array"
 echo ${#temp_array[@]}
 echo " "
-echo "seq 1 ${#temp_array[@]}"
+echo "seq 0 ${#temp_array[@]}"
 read -p "What do you think will happen?  Press Enter to Continue" 
 seq 1 ${#temp_array[@]}
 echo ' '
