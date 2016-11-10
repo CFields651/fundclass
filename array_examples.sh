@@ -29,24 +29,24 @@ echo ${names[@]}
 echo " "
 echo 'declare -a temp_array'
 declare -a temp_array
-echo "for temp in \$(cat weather_data.csv | awk -F',' '{ print \$2 }'); do temp_array=(\"\${temp_array[@]}\" \$temp); done"
-for temp in $(cat weather_data.csv | awk -F',' '{ print $2 }'); do export temp_array=("${temp_array[@]}" $temp); done
+echo "for temp in \$(cat ~/tmp/weather_data.csv | awk -F',' '{ print \$2 }'); do temp_array=(\"\${temp_array[@]}\" \$temp); done"
+for temp in $(cat ~/tmp/weather_data.csv | awk -F',' '{ print $2 }'); do export temp_array=("${temp_array[@]}" $temp); done
 echo " "
 echo 'echo ${temp_array[*]}'
 read -p "What do you think will happen?  Press Enter to Continue" 
 echo ${temp_array[*]}
 echo " "
 echo "How do you understand that last command?"
-echo "cat weather_data.csv"
+echo "cat ~/tmp/weather_data.csv"
 read -p "What do you think will happen?  Press Enter to Continue" 
-cat weather_data.csv | head -5
-echo "cat weather_data.csv | awk -F',' '{ print \$2 }'"
+cat ~/tmp/weather_data.csv | head -5
+echo "cat ~/tmp/weather_data.csv | awk -F',' '{ print \$2 }'"
 read -p "What do you think will happen?  Press Enter to Continue" 
-cat weather_data.csv | awk -F',' '{ print $2 }' | head -5
-echo "for temp in \$(cat weather_data.csv | awk -F',' '{ print \$2 }'); do echo \$temp); done"
+cat ~/tmp/weather_data.csv | awk -F',' '{ print $2 }' | head -5
+echo "for temp in \$(cat ~/tmp/weather_data.csv | awk -F',' '{ print \$2 }'); do echo \$temp); done"
 read -p "What do you think will happen?  Press Enter to Continue" 
-for temp in $(cat weather_data.csv | awk -F',' '{ print $2 }'); do echo $temp; done | head -5
-echo "for temp in \$(cat weather_data.csv | awk -F',' '{ print \$2 }'); do temp_array=(\"\${temp_array[@]}\" \$temp); done"
+for temp in $(cat ~/tmp/weather_data.csv | awk -F',' '{ print $2 }'); do echo $temp; done | head -5
+echo "for temp in \$(cat ~/tmp/weather_data.csv | awk -F',' '{ print \$2 }'); do temp_array=(\"\${temp_array[@]}\" \$temp); done"
 echo ' ' 
 
 echo "echo \${#temp_array[@]}"
