@@ -43,14 +43,16 @@ cat ~/tmp/weather_data.csv | head -5
 echo "cat ~/tmp/weather_data.csv | awk -F',' '{ print \$2 }'"
 read -p "What do you think will happen?  Press Enter to Continue" 
 cat ~/tmp/weather_data.csv | awk -F',' '{ print $2 }' | head -5
-echo "for temp in \$(cat ~/tmp/weather_data.csv | awk -F',' '{ print \$2 }'); do echo \$temp); done"
+echo "for temp in \$(cat ~/tmp/weather_data.csv | awk -F',' '{ print \$2 }'); do echo \"The temperature was \$temp\"; done"
 read -p "What do you think will happen?  Press Enter to Continue" 
-for temp in $(cat ~/tmp/weather_data.csv | awk -F',' '{ print $2 }'); do echo $temp; done | head -5
+for temp in $(cat ~/tmp/weather_data.csv | awk -F',' '{ print $2 }'); do echo "The temperature was $temp"; done | head -5
+echo " "
+echo "Is this more understandable now?"
 echo "for temp in \$(cat ~/tmp/weather_data.csv | awk -F',' '{ print \$2 }'); do temp_array=(\"\${temp_array[@]}\" \$temp); done"
 echo ' ' 
-
+echo "Switching gears..."
 echo "echo \${#temp_array[@]}"
-echo "This is the number of elements in the array"
+echo "This is the number of elements or 'lines' in the array"
 echo ${#temp_array[@]}
 echo " "
 echo "seq 1 ${#temp_array[@]}"
