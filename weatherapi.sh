@@ -21,7 +21,7 @@ echo "epoch=$epoch"
     echo "$(date +'%m/%d/%Y %H:%M') bad sample"
   fi
 
-  sleep 900
+  sleep 3600
 done
 
 #read date temp humidity <<< $(cat weather.json  | jq '.dt,.main.temp,.main.humidity')

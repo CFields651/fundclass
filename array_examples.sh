@@ -2,12 +2,12 @@ echo 'for i in {1..3}; do echo $i; done'
 read -p "What do you think will happen?  Press Enter to Continue" 
 for i in {1..3}; do echo $i; done
 echo " "
-echo 'for name in Haskett Fields Lung; do echo $name; done'
+echo 'for name in Larry Curly Moe; do echo $name; done'
 read -p "What do you think will happen?  Press Enter to Continue" 
-for name in Haskett Fields Lung; do echo $name; done
+for name in Larry Curly Moe; do echo $name; done
 echo " "
-echo 'names=(Kennedy Drew Cora)'
-names=(Kennedy Drew Cora)
+echo 'names=(Larry Currly Moe)'
+names=(Larry Currly Moe)
 echo 'echo ${names[@]}'
 read -p "What do you think will happen?  Press Enter to Continue" 
 echo ${names[@]}

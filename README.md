@@ -94,7 +94,14 @@ Session #10
    - the /tmp/weather_data.csv is in the wrong path; change it to write to tmp in your home dir
    - take the sample every 60 minutes, not 60 seconds  
    - use this to execute it when you are not logged in:  
-       nohup ./weatherapi.sh  1 N >~/tmp/weatherapi.out 2>&1 &  
+       nohup ./weatherapi.sh  7 N >~/tmp/weatherapi.out 2>&1 &  
+
+Session #11   
+ - HOMEWORK: write a function that calculates the average of the temperature of your weather data:  
+   - Start running your weatherapi.sh script to start collecting data using the 'nohup' command a above  
+   - do a 'git pull' from your 'fundclass' repo. Copy the 'weather_functions.sh' script from there  
+     - weather_functions.sh has enough to get you started on your assginment.  Be sure to look at 'examples.sh' to recall what a funtion looks like.  
+
 
    
 Supplemental  
