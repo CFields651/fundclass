@@ -99,7 +99,7 @@ Session #10
 Session #11   
  - HOMEWORK: write a function that calculates the average of the temperature of your weather data:  
    - Start running your weatherapi.sh script to start collecting data using the 'nohup' command a above  
-   - do a 'git pull' from your 'fundclass' repo. Copy the 'weather_functions.sh' script from there  
+   - do a 'git pull' from your 'fundclass' repo. Copy the 'weather_functions.sh' script to your git repo  
      - weather_functions.sh has enough to get you started on your assginment.  Be sure to look at 'examples.sh' to recall what a funtion looks like.  
 
 
