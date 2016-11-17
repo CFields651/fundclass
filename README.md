@@ -97,13 +97,12 @@ Session #10
        nohup ./weatherapi.sh  7 N >~/tmp/weatherapi.out 2>&1 &  
 
 Session #11   
- - HOMEWORK: write a function that calculates the average of the temperature of your weather data:  
-   - Start running your weatherapi.sh script to start collecting data using the 'nohup' command a above  
-   - do a 'git pull' from your 'fundclass' repo. Copy the 'weather_functions.sh' script to your git repo  
-     - weather_functions.sh has enough to get you started on your assginment.  Be sure to look at 'examples.sh' to recall what a funtion looks like.  
+ - HOMEWORK: Start running your weatherapi.sh script to start collecting data using the 'nohup' command a above  
+   - write a function that calculates the average of the temperature of your weather data:  
+     - do a 'git pull' from your 'fundclass' repo. Copy the 'weather_functions.sh' script to your git repo  
+     - weather_functions.sh has enough to get you started on your assignment.  Add your work it it.  Be sure to look at 'examples.sh' to recall what a function looks like.  
 
-
-   
+ 
 Supplemental  
 -  To install jq:  
   -   wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm  
