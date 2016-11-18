@@ -102,6 +102,8 @@ Session #11
      - do a 'git pull' from your 'fundclass' repo. Copy the 'weather_functions.sh' script to your git repo  
      - weather_functions.sh has enough to get you started on your assignment.  Add your work it it.  Be sure to look at 'examples.sh' to recall what a function looks like.  
 
+Session #12  
+ - HOMEWORK: Write an additional function called 'maxmin' in the weather_functions.sh script that calculates the highests and lowest temperature recorded.  
  
 Supplemental  
 -  To install jq:  
