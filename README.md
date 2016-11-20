@@ -104,7 +104,9 @@ Session #11
      - weather_functions.sh has enough to get you started on your assignment.  Add your work it it.  Be sure to look at 'examples.sh' to recall what a function looks like.  
 
 Session #12  
- - HOMEWORK: Write an additional function called 'maxmin' in the weather_functions.sh script that calculates the highests and lowest temperature recorded.  
+ - HOMEWORK: Write an additional function called 'maxmin' in the weather_functions.sh script that calculates the highest and lowest temperature recorded.  
+ - Addtionally, and consider this a 'quiz', write a separte script called 'calc_avg.sh' that asks for three numbers interactively (use the 'read' statement) and calculates the average and echo's it to the screen.  
+   - Extra credit: Let the user enter as many numbers as they want and when they stop entering numbers then calculate the average.    
  
 Supplemental  
 -  To install jq:  
