@@ -46,7 +46,7 @@ Session #5 if/then/else  09/29
 $ pi=3.14  
 $ if [ $pi != 3.14 ]; then echo "pi is wrong"; else echo "pi is right"; fi  
 
-Session #6 loops 10/06
+ Session #6 loops 10/06
 - HOMEWORK: Do the 'while' loop and 'for' loop parts of lesson 6 on 'loops'  
 - Also go through lesson 7 on Functions but stop when you get to variable scope.  
 
@@ -92,7 +92,8 @@ Session #10
    - change the 'date' variable to 'epoch'
    - do not record the seconds for the time of the weather sample
    - the /tmp/weather_data.csv is in the wrong path; change it to write to tmp in your home dir
-   - take the sample every 60 minutes, not 60 seconds  
+   - take the sample every 60 minutes, not 60 seconds 
+   - change the collection of parameter to cmdline rather than using 'read' interactivley  
    - use this to execute it when you are not logged in:  
        nohup ./weatherapi.sh  7 N >~/tmp/weatherapi.out 2>&1 &  
 
