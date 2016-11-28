@@ -103,11 +103,30 @@ Session #11
      - do a 'git pull' from your 'fundclass' repo. Copy the 'weather_functions.sh' script to your git repo  
      - weather_functions.sh has enough to get you started on your assignment.  Add your work it it.  Be sure to look at 'examples.sh' to recall what a function looks like.  
 
-Session #12  
+Session #12 12/01/16  
  - HOMEWORK: Write an additional function called 'maxmin' in the weather_functions.sh script that calculates the highest and lowest temperature recorded.  
  - Addtionally, and consider this a 'quiz', write a separte script called 'calc_avg.sh' that asks for three numbers interactively (use the 'read' statement) and calculates the average and echo's it to the screen.  
    - Extra credit: Let the user enter as many numbers as they want and when they stop entering numbers then calculate the average.    
  
+Session #13 12/08/16  
+  - HOMEWORK: 
+   - Add the date range of the collected weather data to the weather_functions.sh script's output. For example:  
+     - 'date start='first date/time in collected data'  
+     - 'date end=last date/time in collected data
+   - Review the following because they will be on the final test:    
+    - input parameters  
+    - if/then/else logic  
+    - for loops  
+    - functions  
+    - file re-direction (think '>/filename.txt')  
+    - bash arithmetic  
+    - pushing to git  
+    - JSON queries with jq   
+
+Session #14 12/15/16  
+  - Final exam  
+  - Assign presentations for potluck next week!  
+  
 Supplemental  
 -  To install jq:  
   -   wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm  
