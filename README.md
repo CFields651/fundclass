@@ -118,10 +118,12 @@ Session #13 12/08/16
     - if/then/else logic  
     - for loops  
     - functions  
-    - file re-direction (think '>/filename.txt')  
+    - re-direction (think '>/filename.txt' and '|')  
     - bash arithmetic  
+    - arrays
     - pushing to git  
-    - JSON queries with jq   
+    - JSON queries with jq
+    - a special mystery question
 
 Session #14 12/15/16  
   - Final exam  
