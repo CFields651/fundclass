@@ -12,6 +12,7 @@ echo "-----------------------------#1"
 echo "-----------------------------#2"
 #2) (2 points ) Prompt the user running the script for the value of an additional input parameter. 
 # The prompt should say "enter a comfortable outdoor temperature." Call the vairable 'comfy_temp'.  
+# Output their answer to the screen in the format: "Comfy Temp=<the answer>"
 #BTW once you have a solution for this problem then use file input redirection to answer this question:
 # echo 70 > comfytemp.txt
 #./test.sh < comfytemp.txt
@@ -19,7 +20,7 @@ echo "-----------------------------#2"
 echo "-----------------------------#3"
 #3) (5 points ) Construct if then else logic that will test $comfy_temp your YOUR personal outdoor 
 # temperature comfort range.  Indicate if $comfy_temp is 'too cold,' or 'too hot' or 'just right' 
-# for you personally. Think Goldie Locks here and use Fahrenheit:)
+# for you personally. Output that answer to the screen.  Think Goldie Locks here and use Fahrenheit:)
 
 echo "-----------------------------#4"
 #4) (5 points) Construct a 'for' loop that begins at the lowest temp in your outdoor temperature comfort range
@@ -36,7 +37,7 @@ echo "-----------------------------#5"
 echo "-----------------------------#6"
 #6) (3 points) Construct an array with the range of your comfortable outdoor temperatures.  
 # Call it 'mytemprange and echo the entire contents out to the screen - Hint: that should 
-# be done with a single echo statement
+# be done with a single echo statement.
 
 echo "-----------------------------#7"
 #7) (4 points) Calculate the sum of all the numbers in mytemprange and echo it to the screen with 
